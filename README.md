@@ -1,5 +1,3 @@
-# DS.v2.5.3.3.5
-
 # Spaceship Titanic Model
 
 ## Introduction
@@ -57,33 +55,24 @@ Name - The first and last names of the passenger.
 
 Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
 
-### Requirements for Jupyter Notebook:
-
-- Python: 3.11.9
-- pandas: 2.2.3
-- numpy: 1.26.4
-- matplotlib: 3.10.1
-- seaborn: 0.13.2
-- scikit-learn: 1.6.1
-- scipy: 1.11.4
-- statsmodels: 0.14.4
-- xgboost: 3.0.1
-- lightgbm: 4.6.0
-- catboost: 1.2.8
-- optuna: 4.3.0
-- shap: 0.47.2
-- imblearn: 0.13.0
-- phik: 0.12.4
-- joblib: 1.4.2
-- flaml: 2.3.5
-
 ## Data Source
 
 The dataset is sourced from [Kaggle](https://www.kaggle.com/competitions/spaceship-titanic).
 
-Jupyter Notebook and dataset source, clone the Repository:
-[GitHub](https://github.com/TuringCollegeSubmissions/fverko-DS.v2.5.3.3.5)
+## Setup
 
+1. Clone the repo:
+
+   Link [GitHub](https://github.com/Francishek/Spaceship-Titanic) or
+   ```bash
+   git clone https://github.com/Francishek/Spaceship-Titanic
+   cd project-root
+   ```
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Jupyter Notebook Structure:
 
